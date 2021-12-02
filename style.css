@@ -1,0 +1,523 @@
+@font-face{
+	font-family: lora-reg;
+	src: url(fonts/static/Lora-Regular.ttf);
+}
+@font-face{
+	font-family: anton;
+	src: url(fonts/Anton-Regular.ttf);
+}
+@font-face{
+	font-family: lobster;
+	src: url(fonts/Lobster-Regular.ttf);
+}
+@font-face{
+	font-family: lora-bold;
+	src: url(fonts/static/Lora-Bold.ttf);
+}
+body{
+	background-image: url(img/body-bg.jpg);
+	background-size: cover;
+	background-color: white;
+
+}
+.dark-mode {
+	/*background-image:  url(img/how-to-apply.png);*/
+  /*background-color: black;*/
+  /*color: white;*/
+}
+.home{
+	margin-top: 20px;
+}
+.home .navbar{
+	font-family: lora-reg;
+	font-size: 18px;
+}
+.nav-item{
+	padding-left: 20px;
+}
+.home h3{
+	font-family: anton;
+	font-size: 30px;
+	letter-spacing: 1px;
+	color: rgba(249,92,25,0.95);
+}
+.home_btn{
+	background-color: rgba(249,92,25,0.95);
+	color: #fff;
+	margin-top: 30px;
+}
+.nav-btn{
+	background-color: rgba(249,92,25,0.95);
+	color: #fff;
+}
+.home_heading,.home h2{
+	font-size: 50px;
+}
+h2{
+	font-weight: bold;
+}
+.home_bottom{
+	font-size: 22px;
+	font-family: lora-reg;
+}
+.quote{
+	margin-top: 120px;
+}
+.home-img{
+	margin-top: 20px;
+}
+.home{
+	margin-bottom: 80px;
+}
+.service-heading{
+	text-align: center;
+}
+.service-heading h4{
+	text-transform: uppercase;
+	color: rgba(249,92,25,0.95);
+	font-family: anton;
+	letter-spacing: 1px;
+}
+.service,.about,.video,.client,.contact,.address{
+	margin-bottom: 130px;
+}
+.service-text{
+	font-size: 20px;
+	font-weight: bold;
+	margin-top: 30px;
+}
+.service-para{
+	font-size: 17px;
+	font-family: lora-reg;
+	margin-top: 20px;
+}
+.service ul{
+	font-size: 16px;
+	font-family: lora-reg;
+	line-height: 32px;
+	list-style: none;
+	align-self: flex-start;
+	margin-left: 30px;
+}
+.service li::before {
+	content: "•"; 
+	color: rgba(249,92,25,0.95);
+	margin-right: 8px;
+	font-size: 20px;
+}
+
+.service-boxone{
+	background-color: #fff;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 45px 10px;
+	width: 309px;
+	border-radius: 10px;
+	margin-right:30px;
+}
+.service-boxone img{
+	width: 80px;
+}
+.service-btn{
+	border: 1px solid rgba(249,92,25,0.95);
+	color: rgba(249,92,25,0.95);
+	padding: 5px 40px;
+}
+
+.service-btn:hover{
+	background-color: rgba(249,92,25,0.95);
+	color: #fff;
+}
+.service-btn-two{
+	background-color: rgba(249,92,25,0.95);
+	color: #fff;
+	padding: 5px 40px;
+}
+.service-btn-two:hover{
+	color: #fff;
+	transition: all 0.5s ease;
+	transform: translateY(-0.125rem) translateZ(0);
+	box-shadow: 0.5rem 0.5rem 1.5rem rgba(110,74,156,0.1) !important;
+}
+
+.service-item{
+	margin-top: 50px;
+	display: flex;
+	margin-left: 70px;
+}
+.about img{
+	margin-left: 	90px;
+	width: 50px;
+}
+.about .about-text{
+	font-family: lobster;
+	font-size: 	35px;
+	margin-top: 20px;
+	color: rgba(249,92,25,0.95);
+}
+.about .about-para{
+	font-family: 	lora-bold;
+	margin-top: -10px;
+	font-size: 	20px;
+}
+.client h5{
+	color: rgba(249,92,25,0.95);
+	font-family: anton;
+	font-size: 16px;
+}
+.client i{
+	color:  rgba(249,92,25,0.95);
+}
+.client .ceo{
+	margin-left: 200px;
+	padding-top: -250px;
+}
+.contact img{
+	width: 300px;
+}
+.contact h5{
+	font-weight: bold;
+	font-size: 18px;
+	color:  rgba(249,92,25,0.95);
+	margin-top: 20px;
+}
+.contact h2{
+	font-family: 	lora-bold;
+	margin-top: 20px;
+
+}
+.contact p{
+	font-family: lora-reg;
+}
+.contact-text{
+	padding-left: 190px;
+	/*display: flex;
+	flex-direction: column;*/
+	/*align-items: center;*/
+}
+
+.form-control{
+	background-color: transparent !important;
+	width: 400px !important;
+	font-family: lora-reg;
+}
+.contact-btn{
+	margin-top: 30px;
+	width:400px !important;
+	font-family: lora-reg;
+}
+.form{
+	margin-top: 70px;
+}
+.map{
+	margin-top: 50px;
+}
+.address-detail{
+	background-color: #fff;
+	padding-left: 40px;
+	height: 350px;
+	border-radius: 0px 5px 5px 0px; 
+}
+.address-detail h5{
+	padding-top: 50px;
+	padding-bottom: 20px;
+	font-weight: bold;
+	font-family: lora-reg;
+}
+.address-detail i{
+	color: #FFAF0F !important;
+	float: left;
+	font-size: 17px;
+
+}
+.address-detail p{
+	font-family: lora-reg;
+	margin-left: 30px;
+	font-size: 16px;
+}
+.social i{
+	font-size: 24px;
+	margin-top: 20px;
+	color: #eee !important;
+}
+.social i:hover{
+	color: #FFAF0F !important;
+}
+.address-btn{
+	width: 30%;
+	margin: 20px auto;
+	font-family: lora-reg;
+}
+.newsletter{
+	background-color: #222132 !important;
+	color: #fff;
+	padding: 100px 0px;
+}
+.newsletter h3{
+	font-weight: bold;
+	font-size: 35px;
+}
+.newsletter p,.footer p{
+	font-family: lora-reg;
+	margin-top: 15px;
+}
+.newsletter h5{
+	font-size: 18px;
+	/*font-weight: bold;*/
+	font-family: lora-bold;
+	color: #F95C19 !important;
+}
+.newsletter-input{
+	margin-top: 20px; 
+
+}
+.newsletter-btn{
+	margin-left: 30px;
+	margin-top: 40px;
+	padding: 5px 10px;
+}
+.footer{
+	background-color: #2F2E41 !important;
+	color: #fff;
+	padding: 70px 0px;
+}
+.footer h3{
+	font-family: anton;
+	letter-spacing: 1px;
+	/*color: rgba(249,92,25,0.95);*/
+}
+.footer h4{
+	font-size: 20px;
+	font-weight: bold;
+}
+.footer a{
+	text-decoration: none;
+	color: #eee;
+}
+.footer .link{
+	margin-top: 25px;
+}
+.footer a:hover{
+	text-decoration: underline;
+}
+footer{
+	background-color: #222132 !important;
+	color: #eee;
+	padding: 15px;
+	font-size: 15px;
+	font-weight: bold; 
+}
+
+
+/*====================================================================*/
+
+@media (min-width: 0px) and (max-width: 576px) { 
+
+	.home_heading,.home h2{
+		font-size: 20px;
+	}
+
+	.quote{
+		margin-top: 70px;
+	}
+	.home-img img{
+		width: 350px;
+		margin-top: 30px;
+	}
+	.home_bottom{
+		font-size: 15px;
+	}
+	.home_btn{
+		font-size: 12px !important;
+		margin-top: 10px;
+	}
+	.home h3{
+		margin-top: 10px;
+	}
+	.service-heading h4{
+		font-size: 20px;
+	}
+	.service-heading h2{
+		font-size: 24px;
+	}
+
+	.service-boxone{
+		
+		display: flex;
+		flex-direction: column;
+		align-items: center;
+		padding: 45px 10px;
+		width: 100%;
+		border-radius: 10px;
+		margin-right:0px;
+		margin-left: -45px;
+	}
+	.about .about-text{
+		font-size: 25px;
+	}
+	.service,.about,.video,.client,.contact,.address{
+		margin-bottom: 80px;
+	}
+	.client .card{
+		width: 100% !important;
+	}
+	.contact-text{
+		padding-left: 0px;
+	
+	}
+	.contact img{
+		width: 220px;
+	}
+	.contact h5{
+	
+	font-size: 15px;
+	
+}
+.contact h2{
+		font-size: 18px;
+
+
+}
+
+.form-control,.contact-btn{
+	
+	width:250px !important;
+	
+}
+.address iframe{
+	width: 300px !important;
+}
+
+	.address-detail i{
+		font-size: 13px !important;
+		margin-top: 8px;
+	}
+	.address-detail p{
+		font-size: 14px !important;
+	}
+	.social i{
+		font-size: 25px !important;
+		text-align: center;
+		color:  rgba(249,92,25,0.95) !important;
+		margin-left: 35px;
+		margin-top: 10px !important;
+	}
+	.address-btn{
+		width: 50%;
+		margin: 10px auto;
+		font-family: lora-reg;
+		font-size: 10px;
+	}
+	.newsletter h3{
+		font-size: 20px;
+	}
+	.newsletter p,.footer p{
+		font-size: 15px;
+
+	}
+	.newsletter h5{
+		font-size: 15px;
+	}
+	.newsletter-btn{
+		margin-left: 270px;
+		margin-top: -30px;
+		padding: 5px 10px;
+	}
+	.footer h4{
+		font-size: 15px;
+		font-weight: bold;
+	}
+	.footer a{
+		font-size: 12px;
+	}
+	.footer{
+		padding: 30px 0px;
+	}
+	footer{
+		font-size: 12px;
+		padding: 3px;
+
+	}
+}
+
+
+
+
+
+
+
+
+
+
+ /* Slideshow container */
+.slideshow-container {
+  position: relative;
+  background: #f1f1f1f1;
+}
+
+/* Slides */
+.mySlides {
+  display: none;
+  padding: 80px;
+  text-align: center;
+}
+
+/* Next & previous buttons */
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  margin-top: -30px;
+  padding: 16px;
+  color: #888;
+  font-weight: bold;
+  font-size: 20px;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  position: absolute;
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+  color: white;
+}
+
+/* The dot/bullet/indicator container */
+.dot-container {
+  text-align: center;
+  padding: 20px;
+  background: #ddd;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+/* Add a background color to the active dot/circle */
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Add an italic font style to all quotes */
+q {font-style: italic;}
+
+/* Add a blue color to the author */
+.author {color: cornflowerblue;} 
+
